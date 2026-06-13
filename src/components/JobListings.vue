@@ -11,18 +11,20 @@ const fetchJobs = async () => {
 	try{
 		const res = await fetch('/api/jobs');
 		const data = await res.json();
-		jobs.value.push(...data);
+		jobs.value = data;	
 	}
 	catch(error) {
 		console.error('Error Fetching jobs',error);
 	}
 }
-onMounted(fetchJobs);
+
+onMounted(() => fetchJobs());
 
 </script>
 
 
 <template>
+	
 	<div class="grid grid-cols-1 sm:gap-y-4 md:grid-cols-3 p-4 gap-x-8">
 		<JobListing v-for="job in jobs.slice(0,limit) ?? jobs.length " :key="job.id" :job="job" />
 	</div>

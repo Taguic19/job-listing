@@ -1,7 +1,9 @@
 <script setup lang="ts">
 	import type { Job } from '@/shared/job-type';
 import {ref, onMounted, reactive} from 'vue';
+import router from '@/router';
 import { useToast } from 'vue-toastification';
+import { Icon } from '@iconify/vue';
 import { useRoute } from 'vue-router';
 import { RouterLink } from 'vue-router';
 const toast = useToast();
@@ -25,13 +27,31 @@ const jobId = route.params.id;
 
   onMounted(fetchSingleJob);
 
+  const deleteJob = async (id?: string) => {
+    if(!id) {
+      return;
+    }
+    try{
+      await fetch(`/api/jobs/${id}`, {
+        method: 'DELETE'
+      });
+      toast.success('Job Deleted!');
+      router.push('/jobs');
+    }
+    catch(error){
+      toast.error(error instanceof Error? error.message : 'Error deleting Job');
+      console.error('Error: ',error);
+    }
+  }
+ 
+
 </script>
 
 
 <template>
 
 	 <div class="max-w-4xl mx-auto p-6 mt-10"> 
-    <RouterLink to="/jobs" class="text-white bg-black py-1.5 px-4 rounded-lg inline-block mb-4">Return to Jobs</RouterLink>
+    <RouterLink to="/jobs" class="text-white bg-black py-1.5 px-4 rounded-lg inline-block mb-4 text-center"> <Icon icon="mdi:arrow-left" class="inline-block mr-2" color="white"/>Return to Jobs</RouterLink>
     <div class="bg-white rounded-xl border border-gray-200 p-8 shadow-sm">
       
       <!-- Header -->
@@ -46,11 +66,15 @@ const jobId = route.params.id;
           </p>
         </div>
 
-        <button
-          class="bg-black text-white px-6 py-3 rounded-lg hover:opacity-90 transition"
+       <div>
+        <RouterLink :to="`/jobs/update/${job?.id}`" class="bg-black px-6 py-3 mr-2 rounded-lg text-white">Update Job</RouterLink>
+          <button @click="deleteJob(job?.id)"
+          class="bg-red-600 text-white px-6 py-3 rounded-lg hover:opacity-90 transition cursor-pointer"
         >
-          Apply Now
+        Delete Job
         </button>
+
+       </div>
       </div>
 
       <!-- Job Info -->

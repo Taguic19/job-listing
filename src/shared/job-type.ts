@@ -5,5 +5,5 @@ export interface Job {
 		location: string;
 		salary: string;
 		description: string;
-		workType: string;
+		workType: 'Part Time' | 'Full Time';
 	}

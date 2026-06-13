@@ -3,6 +3,9 @@ import Home from '@/views/Home.vue';
 import NotFound from '@/views/NotFound.vue';
 import Job from '@/views/Job.vue';
 import Jobs from '@/views/Jobs.vue';
+import Profile from '@/views/Profile.vue';
+import CreateJob from '@/views/CreateJob.vue';
+import UpdateJob from '@/views/UpdateJob.vue';
 
 
 const router = createRouter({
@@ -25,6 +28,21 @@ const router = createRouter({
 			name: 'job',
 			component: Job
 		},
+		{
+			path: '/profile',
+			name: 'profile',
+			component: Profile
+		},
+		{
+			path: '/jobs/update/:id',
+			name: 'update-job',
+			component: UpdateJob
+		},
+
+		{	
+			path: '/jobs/create',
+			 name: 'create-job',
+			  component: CreateJob},
 
 		{
 			path: '/:pathMatch(.*)*',

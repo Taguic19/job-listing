@@ -1,95 +1,41 @@
 {
-
   "jobs": [
-  {
-    "id": "JOB-001",
-    "title": "Frontend Developer",
-    "company": "Pixel Labs",
-    "workType": "Full Time",
-    "location": "Remote — Worldwide",
-    "salary": "$80,000 – $110,000 / year",
-    "description": "We are looking for a passionate and detail-oriented Frontend Developer to join our growing product team at Pixel Labs. In this role, you will be responsible for building and maintaining modern, responsive user interfaces using Vue.js and Tailwind CSS. You will work closely with our design team to translate high-fidelity Figma mockups into pixel-perfect, accessible web experiences. You will also collaborate with backend engineers to integrate RESTful APIs and GraphQL endpoints, ensuring smooth data flow and optimal performance across the application. You are expected to write clean, maintainable, and well-documented code, participate in code reviews, and contribute to the overall architecture decisions of the frontend system. We value developers who care deeply about user experience, performance optimization, and accessibility standards. Prior experience with Vue 3 Composition API and state management libraries such as Pinia is a strong advantage."
-  },
-  {
-    "id": "JOB-002",
-    "title": "Backend Engineer",
-    "company": "CloudStack Inc.",
-    "workType": "Full Time",
-    "location": "San Francisco, CA",
-    "salary": "$100,000 – $140,000 / year",
-    "description": "CloudStack Inc. is seeking an experienced Backend Engineer to design, build, and maintain scalable server-side systems and APIs. You will be deeply involved in architecting microservices using Node.js and Express, deploying them on AWS infrastructure, and ensuring high availability and fault tolerance across all services. In this role, you will design database schemas in both PostgreSQL and MongoDB, optimize slow queries, and implement efficient caching strategies with Redis. You will also work on our CI/CD pipeline, contribute to infrastructure-as-code using Terraform, and help enforce security best practices across the stack. Collaboration is key — you will work hand in hand with frontend developers, DevOps engineers, and product managers to deliver reliable and performant features. Candidates with experience in event-driven architectures using Kafka or RabbitMQ are especially encouraged to apply."
-  },
-  {
-    "id": "JOB-003",
-    "title": "UI/UX Designer",
-    "company": "Kreative Studio",
-    "workType": "Part Time",
-    "location": "Remote — Europe",
-    "salary": "$35 – $55 / hour",
-    "description": "Kreative Studio is on the hunt for a talented Part Time UI/UX Designer to help shape the visual identity and user experience of our client projects. You will be responsible for conducting user research, creating user personas, designing wireframes and interactive prototypes in Figma, and iterating based on user testing feedback. You will work alongside our development team to ensure that designs are feasible and are implemented faithfully. Strong typography skills, a keen eye for visual hierarchy, and a deep understanding of accessibility and inclusive design principles are essential. You should be comfortable presenting your design decisions to stakeholders and articulating the reasoning behind your choices. Experience with motion design and micro-interactions is a big plus. This role is flexible — approximately 20 hours per week — making it ideal for freelancers or designers looking for steady Part Time engagement."
-  },
-  {
-    "id": "JOB-004",
-    "title": "Data Analyst",
-    "company": "Insightful Analytics",
-    "workType": "Full Time",
-    "location": "New York, NY",
-    "salary": "$75,000 – $95,000 / year",
-    "description": "Insightful Analytics is hiring a Full Time Data Analyst to help transform raw data into actionable business insights. You will be working with large datasets from various sources, building dashboards and reports in Tableau and Power BI, and writing complex SQL queries to support business intelligence needs. You will collaborate closely with product managers, marketing teams, and executives to understand key business questions and provide data-driven answers. A strong understanding of statistical analysis, A/B testing methodologies, and forecasting models is essential. You will also assist in defining KPIs, maintaining data pipelines, and ensuring data quality across reporting systems. Proficiency in Python or R for data manipulation and analysis is highly desirable. We are looking for someone who is not only technically skilled but also possesses strong communication skills to present findings to non-technical audiences clearly and concisely."
-  },
-  {
-    "id": "JOB-005",
-    "title": "Customer Support Specialist",
-    "company": "HelpDesk Pro",
-    "workType": "Part Time",
-    "location": "Manila, Philippines",
-    "salary": "₱25,000 – ₱35,000 / month",
-    "description": "HelpDesk Pro is looking for a friendly, patient, and solutions-oriented Customer Support Specialist to join our Part Time support team. In this role, you will be the first point of contact for our customers, handling inquiries via live chat, email, and phone. You will troubleshoot product issues, escalate complex cases to the appropriate technical teams, and follow up to ensure full resolution. You should be comfortable working with CRM tools such as Zendesk or Freshdesk and be able to manage multiple conversations simultaneously without sacrificing quality. Excellent written and verbal communication skills in English are required; proficiency in Filipino or another Southeast Asian language is a plus. We offer flexible scheduling — shifts are typically 4 to 6 hours — making this ideal for students or those seeking supplemental income. A positive attitude and genuine desire to help customers are the most important qualities we are looking for."
-  },
-  {
-    "id": "JOB-006",
-    "title": "DevOps Engineer",
-    "company": "Nexus Systems",
-    "workType": "Full Time",
-    "location": "Austin, TX",
-    "salary": "$110,000 – $150,000 / year",
-    "description": "Nexus Systems is seeking a skilled DevOps Engineer to strengthen our infrastructure and reliability practices. You will be responsible for designing, implementing, and maintaining CI/CD pipelines, automating deployment workflows, and managing cloud infrastructure on AWS and GCP. Experience with containerization technologies such as Docker and orchestration platforms like Kubernetes is required. You will monitor system health using tools like Grafana and Prometheus, respond to incidents, perform root cause analysis, and implement preventive measures. You will work closely with software development teams to integrate DevOps best practices into the SDLC, including infrastructure as code using Terraform and Ansible. Security hardening, cost optimization, and capacity planning are also key parts of this role. We are looking for someone who thrives in fast-paced environments and is passionate about building resilient, scalable, and efficient systems."
-  },
-  {
-    "id": "JOB-007",
-    "title": "Content Writer",
-    "company": "WordCraft Media",
-    "workType": "Part Time",
-    "location": "Remote — Global",
-    "salary": "$20 – $30 / hour",
-    "description": "WordCraft Media is seeking a creative and versatile Part Time Content Writer to produce engaging written content for our clients across various industries. You will write blog posts, website copy, email newsletters, social media captions, and long-form articles that are both SEO-optimized and genuinely compelling. You should have a strong command of the English language, excellent research skills, and the ability to adapt your tone and voice to match different brand personalities. Familiarity with SEO best practices, keyword research tools like Ahrefs or SEMrush, and content management systems such as WordPress is highly valued. We expect all content to be original, well-structured, and delivered on time. This is a great opportunity for writers who enjoy variety, as you will be working on diverse topics ranging from technology and finance to lifestyle and wellness. Approximately 15 to 25 hours per week depending on project load."
-  },
-  {
-    "id": "JOB-008",
-    "title": "Mobile App Developer",
-    "company": "AppForge",
-    "workType": "Full Time",
-    "location": "Remote — Asia Pacific",
-    "salary": "$90,000 – $120,000 / year",
-    "description": "AppForge is hiring a Full Time Mobile App Developer with strong experience in React Native to build cross-platform mobile applications for iOS and Android. You will be involved in the entire mobile development lifecycle — from ideation and architecture planning to coding, testing, and deployment on the App Store and Google Play. You will work closely with designers to implement beautiful and intuitive user interfaces, and with backend engineers to integrate APIs and real-time data features. Proficiency in TypeScript, familiarity with state management solutions like Redux or Zustand, and experience with push notifications, deep linking, and offline-first architectures are all highly desirable. You should be comfortable with performance profiling tools and be proactive in identifying and resolving bottlenecks. A portfolio of published apps is a strong advantage. We are a fully remote team spread across the Asia Pacific region and value asynchronous communication and self-discipline."
-  },
-  {
-    "id": "JOB-009",
-    "title": "HR Coordinator",
-    "company": "PeopleFirst Group",
-    "workType": "Part Time",
-    "location": "Cebu City, Philippines",
-    "salary": "₱18,000 – ₱22,000 / month",
-    "description": "PeopleFirst Group is looking for an organized and people-centric HR Coordinator to support our human resources department on a Part Time basis. You will assist in the recruitment process by posting job ads, screening resumes, scheduling interviews, and coordinating onboarding for new hires. You will also help maintain employee records, assist in processing payroll data, and coordinate company events and team activities. Knowledge of Philippine labor laws and DOLE regulations is essential. You should be proficient in Microsoft Office and familiar with HR management software such as Sprout HR or GreatDay. Strong interpersonal skills and the ability to handle confidential information with discretion are critical. This role is approximately 20 hours per week and is well-suited for HR professionals seeking flexible work arrangements or recent graduates looking to build practical HR experience."
-  },
-  {
-    "id": "JOB-010",
-    "title": "Product Manager",
-    "company": "LaunchPad Ventures",
-    "workType": "Full Time",
-    "location": "Singapore",
-    "salary": "SGD $90,000 – $130,000 / year",
-    "description": "LaunchPad Ventures is looking for an experienced Product Manager to lead the strategy, roadmap, and execution of our SaaS platform. You will define product vision in alignment with company goals, gather and prioritize requirements from customers and stakeholders, and work closely with engineering, design, and marketing teams to ship features that create real value. Strong analytical skills are essential — you will use data from tools like Mixpanel and Amplitude to measure feature adoption, identify friction points, and guide product decisions. You should be comfortable writing detailed product requirement documents, running sprint planning sessions, and communicating progress clearly to leadership. Experience with B2B SaaS products, a deep understanding of agile development methodologies, and the ability to manage competing priorities in a startup environment are all key requirements. We are looking for a product leader who is equally comfortable diving into technical details and presenting to the executive team."
-  }
-]
+    {
+      "id": "JOB-006",
+      "title": "Fucking Engineer",
+      "company": "Nexus Systems",
+      "workType": "Full Time",
+      "location": "Austin, TX",
+      "salary": "$110,000 – $150,000 / year",
+      "description": "Nexus Systems is seeking a skilled DevOps Engineer to strengthen our infrastructure and reliability practices. You will be responsible for designing, implementing, and maintaining CI/CD pipelines, automating deployment workflows, and managing cloud infrastructure on AWS and GCP. Experience with containerization technologies such as Docker and orchestration platforms like Kubernetes is required. You will monitor system health using tools like Grafana and Prometheus, respond to incidents, perform root cause analysis, and implement preventive measures. You will work closely with software development teams to integrate DevOps best practices into the SDLC, including infrastructure as code using Terraform and Ansible. Security hardening, cost optimization, and capacity planning are also key parts of this role. We are looking for someone who thrives in fast-paced environments and is passionate about building resilient, scalable, and efficient systems."
+    },
+    {
+      "id": "dakgdkXKajE",
+      "title": "Java Developer",
+      "company": "Accenture",
+      "location": "Cebu",
+      "salary": "40000",
+      "description": "This job requires experience in developing software using spring boot for the backend and angular for the frontend , docker , azure for cloud services.",
+      "workType": "Part Time"
+    },
+    {
+      "id": "2b8dRZQ0SVw",
+      "title": "Asp.net Developer",
+      "company": "CloudStaff",
+      "location": "Australia",
+      "salary": "100000",
+      "description": "This is requires sufficient skill and knowledge on cloud services,",
+      "workType": "Full Time"
+    },
+    {
+      "id": "rgW7goEHJuw",
+      "title": "Senior Fullstack Developer",
+      "company": "Accenture",
+      "location": "Cebu City",
+      "salary": "100000",
+      "description": "This is senior position for fullstack development. This role requires expertise on using C# programming language.",
+      "workType": "Part Time"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
